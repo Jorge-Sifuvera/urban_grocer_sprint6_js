@@ -14,9 +14,6 @@
 
 
 
-
-
-
 ## Listas de Comprobación:
 ###### Se procedió a comprobar la siguiente lista
 -Test_1: Crear 1 kit con el número permitido de carácteres (1)// Código de respuesta esperada "201".

@@ -16,8 +16,6 @@ auth_token = obtener_token()
 data.authorization["Authorization"] = f'Bearer {auth_token}'
 
 
-
-
 def crear_kit(name):
     # 1 hacer petición: método, endpoint y headers
     respuesta = requests.post(configuration.URL_SERVICE + configuration.KIT_ENDPOINT,
