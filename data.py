@@ -3,6 +3,7 @@ user ={
     "phone": "+10005553535",
     "address": "8042 Lancaster Ave.Hamburg, NY"
     }
+
 kit = {
     "prueba_1": {"name": "a"},
     "prueba_2": {"name": "AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC"},
@@ -14,3 +15,8 @@ kit = {
     "prueba_8": {},
     "prueba_9": {"name" : 123},
     }
+authorization = {
+    "Content-Type": "application/json",
+    "Authorization": ""
+}
+

@@ -1,3 +1,4 @@
+
 import requests
 import configuration
 import data
@@ -12,17 +13,19 @@ def obtener_token():
     return resp_json['authToken']
 
 auth_token = obtener_token()
-authorization = {
-    "Content-Type": "application/json",
-    "Authorization": f'Bearer {auth_token}'
-}
-print(authorization)
+data.authorization["Authorization"] = f'Bearer {auth_token}'
 
 
 def crear_kit(name):
     # 1 hacer petición: método, endpoint y headers
     respuesta = requests.post(configuration.URL_SERVICE + configuration.KIT_ENDPOINT,
                               json=name,
-                              headers=authorization)
+                              headers=data.authorization)
     # 2 impresion petición
     return respuesta
+
+
+
+
+
+

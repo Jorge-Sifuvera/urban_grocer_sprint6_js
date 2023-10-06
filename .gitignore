@@ -12,6 +12,13 @@
 .idea/**/diccionarios
 .idea/**/estante
 
+
+
+
+
+
+
+
 # AWS Específico del usuario
 .idea/**/aws.xml
 

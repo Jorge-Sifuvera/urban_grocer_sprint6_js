@@ -12,9 +12,11 @@
 - api/v1/users
 - /api/v1/kits
 
+
+
 ## Listas de Comprobación:
 ###### Se procedió a comprobar la siguiente lista
--Test_1: Crear 1 kit con el número permitido de carácteres (1)//Código de respuesta esperada "201".
+-Test_1: Crear 1 kit con el número permitido de carácteres (1)// Código de respuesta esperada "201".
 -Test_2: Crear 1 kit con el número permitido de carácteres (511)//Código de respuesta esperada "201".
 -Test_3: Crear 1 kit con el número permitido de carácteres (0)//Código de respuesta esperada "400".
 -Test_4: Crear 1 kit con el número permitido de carácteres (512)//Código de respuesta esperada "400".
@@ -25,13 +27,14 @@
 -Test_9: Crear 1 kit con parámetro diferente (números)//Código de respuesta esperada "400".
 
 
+
 ## Resultado:
 
 
 - Test_1: Kit creado con éxito, se consiguió resultado esperado "201".
 - Test_2: Kit creado con éxito, se consiguió resultado esperado "201".
-- Test_3: BUGG encontrado, no sé consiguió resultado esperado "400", se consiguió crear registro "201".
-- Test_4: BUGG encontrado, no sé consiguió resultado esperado "400", se consiguió crear registro "201".
+- Test_3: BUGG encontrado, no sé consiguió resultado esperado "400",  se consiguió crear registro "201".
+- Test_4: BUGG encontrado, no sé consiguió resultado esperado "400",  se consiguió crear registro "201".
 - Test_5: Kit creado con éxito, se consiguió resultado esperado "201".
 - Test_6: Kit creado con éxito, se consiguió resultado esperado "201".
 - Test_7: Kit creado con éxito, se consiguió resultado esperado "201".
