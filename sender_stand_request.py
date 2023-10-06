@@ -1,3 +1,6 @@
+
+
+
 import requests
 import configuration
 import data
@@ -26,3 +29,9 @@ def crear_kit(name):
                               headers=authorization)
     # 2 impresion petición
     return respuesta
+
+
+
+
+
+
